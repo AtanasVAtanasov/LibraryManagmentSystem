@@ -10,8 +10,8 @@ public class Exec
         library.AddBook(new Book("It", "Steven King", "12345", 3));
         library.AddBook(new Book("Don Quixote", "Miguel de Cervantes", "67890", 2));
 
-        Member alice = new StudentMember("Atanas Atanasov", 1, 5);
-        Member bob = new StaffMember("Pavel Pavlov", 2, 10);
+        Member alice = new StudentMember("Atanas Atanasov", 1);
+        Member bob = new StaffMember("Pavel Pavlov", 2);
 
         library.AddMember(alice);
         library.AddMember(bob);
